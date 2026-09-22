@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>راه‌های کاروان · Caravanways</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+<script>
+(function () {
+  var codes = ["fa","en","fr","ru","es","tr","uz"];
+  var prefs = navigator.languages || [navigator.language || 'fa'];
+  for (var i = 0; i < prefs.length; i++) {
+    var c = String(prefs[i]).slice(0, 2).toLowerCase();
+    if (codes.indexOf(c) >= 0) { location.replace('/' + c + '/'); return; }
+  }
+  location.replace('/fa/');
+})();
+</script>
+</head>
+<body class="root">
+<main class="lang-pick">
+  <h1>راه‌های کاروان</h1>
+  <ul><li><a href="/fa/" lang="fa">فارسی</a></li><li><a href="/en/" lang="en">English</a></li><li><a href="/fr/" lang="fr">Français</a></li><li><a href="/ru/" lang="ru">Русский</a></li><li><a href="/es/" lang="es">Español</a></li><li><a href="/tr/" lang="tr">Türkçe</a></li><li><a href="/uz/" lang="uz">Oʻzbekcha</a></li></ul>
+</main>
+</body>
+</html>
