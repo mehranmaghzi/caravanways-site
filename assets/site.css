@@ -82,6 +82,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
 .muted { color: var(--muted); }
 .lead { color: var(--muted); font-size: 1.12rem; margin: 6px 0 0; }
 .block { margin-top: 56px; }
+.block.region-stories { margin-top: 18px; }
 .block > h2 { font-size: 1.45rem; margin: 0 0 6px; }
 .block > .muted { margin: 0 0 18px; }
 .block > h2 + .cards, .block > h2 + .travellers { margin-top: 18px; }
@@ -177,14 +178,10 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
 .map .place.current { fill: var(--accent); }
 .map a:focus-visible { outline: none; }
 
-.map .pin { pointer-events: none; }
+.map .pin { cursor: pointer; }
+.map .pin:hover .halo, .map .pin:focus-visible .halo { opacity: .35; }
 .map .pin .halo { fill: var(--accent); opacity: .18; }
 .map .pin .dot { fill: var(--accent); }
-.map .pin text {
-  fill: #fff; font-size: 9px; font-weight: 700; text-anchor: middle;
-  font-family: Vazirmatn, system-ui, sans-serif;
-}
-.map-sub .pin text { font-size: 13px; }
 
 .map-hint { text-align: center; color: var(--muted); font-size: .92rem; margin: 10px 0 2px; }
 .map-tip {
@@ -392,3 +389,61 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
 .country-head h1 { display: inline-flex; align-items: center; gap: 12px; }
 .card .meta, .story .crumbs a, .crumbs a { gap: 6px; }
 .card .meta .flag { vertical-align: -2px; }
+
+/* فرم خبرنامه */
+.subscribe-form { max-width: 440px; display: flex; flex-direction: column; gap: 14px; margin-top: 22px; }
+.subscribe-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: .95rem; }
+.subscribe-form input {
+  padding: 11px 16px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--card); color: inherit; font: inherit; font-weight: 400;
+}
+.subscribe-form button {
+  align-self: flex-start; padding: 11px 24px; border: 0; border-radius: 999px; cursor: pointer;
+  background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700;
+}
+.form-note { max-width: 440px; color: var(--muted); }
+.form-note.ok { color: var(--deep); font-weight: 600; }
+.form-note.bad { color: var(--accent); font-weight: 600; }
+
+/* ---------- لایک و نظر */
+.reactions { display: flex; gap: 12px; margin: 32px 0 8px; }
+.like-btn {
+  display: inline-flex; align-items: center; gap: 9px; cursor: pointer;
+  padding: 9px 20px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card); color: inherit; font: inherit; font-weight: 600;
+  transition: border-color .15s ease, color .15s ease, transform .1s ease;
+}
+.like-btn:hover { border-color: var(--accent); color: var(--accent); }
+.like-btn:active { transform: scale(.97); }
+.like-btn.on { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+.like-btn .heart { font-size: 1.15rem; line-height: 1; }
+.like-btn .like-count { color: var(--muted); font-weight: 700; }
+.like-btn.on .like-count { color: var(--accent); }
+
+.comments { max-width: 720px; margin: 36px auto 0; }
+.comments h2 { font-size: 1.3rem; margin: 0 0 14px; }
+.comment-list { list-style: none; padding: 0; margin: 0 0 28px; display: flex; flex-direction: column; gap: 18px; }
+.comment {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 18px; box-shadow: var(--shadow-s);
+}
+.comment-head { display: flex; align-items: center; gap: 8px; font-size: .92rem; }
+.comment-body { margin: 6px 0 0; white-space: pre-wrap; line-height: 1.9; }
+.comment-reply {
+  margin: 14px 0 0; padding: 12px 14px; border-radius: 12px;
+  background: var(--paper-2); border-inline-start: 3px solid var(--accent);
+}
+.comment-reply .tag {
+  font-size: .75rem; background: var(--accent); color: var(--accent-ink);
+  padding: 2px 9px; border-radius: 999px;
+}
+.comment-form { display: flex; flex-direction: column; gap: 12px; max-width: 560px; }
+.comment-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: .95rem; }
+.comment-form input, .comment-form textarea {
+  padding: 11px 16px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--card); color: inherit; font: inherit; font-weight: 400; resize: vertical;
+}
+.comment-form button {
+  align-self: flex-start; padding: 10px 24px; border: 0; border-radius: 999px; cursor: pointer;
+  background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700;
+}

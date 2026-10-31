@@ -3,7 +3,7 @@
   var tip = null;
   document.querySelectorAll('.map-stage .map').forEach(function (svg) {
     svg.addEventListener('mousemove', function (e) {
-      var path = e.target.closest && e.target.closest('.place');
+      var path = e.target.closest && e.target.closest('[data-name]');
       var name = path && path.getAttribute('data-name');
       if (!name) { hide(); return; }
       if (!tip) { tip = document.createElement('div'); tip.className = 'map-tip'; document.body.appendChild(tip); }
@@ -87,4 +87,99 @@
   var initial = new URLSearchParams(location.search).get('q');
   if (initial) { box.value = initial; render(initial); }
   box.focus();
+})();
+
+// ---------- عضویت در خبرنامه (صفحهٔ /subscribe/)
+(function () {
+  var cfg = window.SUBSCRIBE_I18N;
+  var form = document.getElementById('subscribe-form');
+  var confirmForm = document.getElementById('confirm-form');
+  var note = document.getElementById('subscribe-note');
+  if (!cfg || !form) return;
+  var email = '';
+
+  function say(text, kind) {
+    note.textContent = text;
+    note.className = 'form-note ' + (kind || '');
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var data = { name: form.name.value.trim(), email: form.email.value.trim(), lang: cfg.lang };
+    if (!data.name || !data.email) return;
+    say('…');
+    fetch('/api/subscribe', {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data),
+    }).then(function (r) { return r.json().then(function (b) { return { ok: r.ok, b: b }; }); })
+      .then(function (res) {
+        if (!res.ok) return say(cfg.failed, 'bad');
+        if (res.b.already) return say(cfg.already, 'ok');
+        email = data.email;
+        form.hidden = true;
+        confirmForm.hidden = false;
+        say(cfg.sent);
+        confirmForm.code.focus();
+      }).catch(function () { say(cfg.failed, 'bad'); });
+  });
+
+  confirmForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    say('…');
+    fetch('/api/subscribe/confirm', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ email: email, code: confirmForm.code.value.trim() }),
+    }).then(function (r) { return r.json().then(function (b) { return { ok: r.ok, b: b }; }); })
+      .then(function (res) {
+        if (!res.ok) return say(cfg.wrong, 'bad');
+        confirmForm.hidden = true;
+        say(cfg.done, 'ok');
+      }).catch(function () { say(cfg.failed, 'bad'); });
+  });
+})();
+
+// ---------- لایک و نظر (صفحهٔ سفرنامه)
+(function () {
+  var cfg = window.SOCIAL_I18N;
+  if (!cfg) return;
+
+  var btn = document.querySelector('.like-btn');
+  if (btn) {
+    btn.addEventListener('click', function () {
+      btn.disabled = true;
+      fetch('/api/posts/' + encodeURIComponent(btn.dataset.post) + '/like', { method: 'POST' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          btn.classList.toggle('on', d.mine);
+          btn.setAttribute('aria-pressed', d.mine ? 'true' : 'false');
+          btn.querySelector('.heart').textContent = d.mine ? '♥' : '♡';
+          btn.querySelector('.like-label').textContent = d.mine ? cfg.liked : cfg.like;
+          btn.querySelector('.like-count').textContent =
+            Number(d.count).toLocaleString(cfg.lang === 'fa' ? 'fa-IR' : cfg.lang);
+        })
+        .catch(function () {})
+        .then(function () { btn.disabled = false; });
+    });
+  }
+
+  var form = document.getElementById('comment-form');
+  var note = document.getElementById('comment-note');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var body = { name: form.name.value.trim(), body: form.body.value.trim(), lang: cfg.lang };
+    if (!body.name || !body.body) return;
+    note.textContent = '…';
+    note.className = 'form-note';
+    fetch('/api/posts/' + encodeURIComponent(form.dataset.post) + '/comments', {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body),
+    }).then(function (r) {
+      if (!r.ok) throw new Error('failed');
+      form.reset();
+      note.textContent = cfg.thanks;
+      note.className = 'form-note ok';
+    }).catch(function () {
+      note.textContent = cfg.failed;
+      note.className = 'form-note bad';
+    });
+  });
 })();
