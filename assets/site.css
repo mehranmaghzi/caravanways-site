@@ -9,48 +9,46 @@
 }
 
 :root {
-  --paper: #faf6ef;
-  --paper-2: #f2ebdf;
-  --card: #fffdf9;
-  --ink: #241f1a;
-  --muted: #736858;
-  --line: #e6dccb;
-  --land: #e8dfd0;
-  --land-dim: #ddd3c2;
-  --land-stroke: #faf6ef;
-  --sea: #f5efe4;
-  --accent: #b4482a;
-  --accent-2: #d98b4a;
-  --accent-soft: #eab896;
-  --deep: #14565c;
-  --accent-ink: #fff;
+  --paper: #faf8f2;
+  --paper-2: #f1ece0;
+  --card: #ffffff;
+  --ink: #141210;
+  --muted: #6b6457;
+  --line: #e5ded0;
+  --land: #e8e2d4;
+  --land-dim: #ded8c8;
+  --sea: #f5f1e6;
+  --accent: #f5c518;
+  --accent-2: #ffd84d;
+  --accent-soft: #f8e08a;
+  --deep: #141210;
+  --accent-ink: #141210;
   --radius: 16px;
-  --shadow-s: 0 1px 2px rgb(60 40 20 / 7%);
-  --shadow: 0 2px 4px rgb(60 40 20 / 5%), 0 10px 28px rgb(60 40 20 / 8%);
-  --shadow-l: 0 4px 10px rgb(60 40 20 / 7%), 0 24px 60px rgb(60 40 20 / 10%);
+  --shadow-s: 0 1px 2px rgb(20 18 16 / 6%);
+  --shadow: 0 2px 4px rgb(20 18 16 / 5%), 0 10px 28px rgb(20 18 16 / 8%);
+  --shadow-l: 0 4px 10px rgb(20 18 16 / 7%), 0 24px 60px rgb(20 18 16 / 10%);
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #17150f;
-    --paper-2: #201d16;
-    --card: #221f18;
-    --ink: #f0e9dc;
-    --muted: #a99d89;
-    --line: #35301f;
-    --land: #332f26;
-    --land-dim: #2a2720;
-    --land-stroke: #17150f;
-    --sea: #1b1912;
-    --accent: #e0774f;
-    --accent-2: #d8a05f;
-    --accent-soft: #8d5338;
-    --deep: #52b3b8;
-    --accent-ink: #17150f;
-    --shadow-s: 0 1px 2px rgb(0 0 0 / 40%);
-    --shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 10px 28px rgb(0 0 0 / 35%);
-    --shadow-l: 0 4px 10px rgb(0 0 0 / 35%), 0 24px 60px rgb(0 0 0 / 45%);
+    --paper: #100f0d;
+    --paper-2: #1a1815;
+    --card: #1b1916;
+    --ink: #f3efe3;
+    --muted: #a39b89;
+    --line: #2e2a24;
+    --land: #2b2722;
+    --land-dim: #211e1a;
+    --sea: #151310;
+    --accent: #f5c518;
+    --accent-2: #ffd84d;
+    --accent-soft: #7d6a1c;
+    --deep: #f5c518;
+    --accent-ink: #141210;
+    --shadow-s: 0 1px 2px rgb(0 0 0 / 45%);
+    --shadow: 0 2px 4px rgb(0 0 0 / 35%), 0 10px 28px rgb(0 0 0 / 40%);
+    --shadow-l: 0 4px 10px rgb(0 0 0 / 40%), 0 24px 60px rgb(0 0 0 / 50%);
     color-scheme: dark;
   }
 }
@@ -61,7 +59,7 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(1200px 600px at 50% -10%, color-mix(in srgb, var(--accent) 7%, transparent), transparent 70%),
+    radial-gradient(1100px 520px at 50% -12%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 70%),
     var(--paper);
   color: var(--ink);
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', Vazirmatn, sans-serif;
@@ -106,9 +104,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
   font-weight: 800; text-decoration: none; letter-spacing: .2px; font-size: 1.08rem;
 }
 .brand-mark {
-  width: 22px; height: 22px; border-radius: 50%; flex: none;
-  background: radial-gradient(circle at 32% 30%, var(--accent-2), var(--accent) 65%);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent);
+  width: 28px; height: 28px; flex: none; display: block;
 }
 .nav { display: flex; gap: 6px; margin-inline-start: auto; }
 .nav a { text-decoration: none; padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
@@ -172,16 +168,12 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
   transition: fill .18s ease;
 }
 .map-sub .place { stroke-width: 1.1; fill: var(--land-dim); }
-.map .place.has { fill: var(--accent-soft); }
+.map .place.has { fill: var(--accent); }
 .map a .place.has { cursor: pointer; }
-.map a:hover .place.has, .map a:focus-visible .place.has { fill: var(--accent); }
+.map a:hover .place.has, .map a:focus-visible .place.has { fill: var(--accent-2); }
 .map .place.current { fill: var(--accent); }
 .map a:focus-visible { outline: none; }
 
-.map .pin { cursor: pointer; }
-.map .pin:hover .halo, .map .pin:focus-visible .halo { opacity: .35; }
-.map .pin .halo { fill: var(--accent); opacity: .18; }
-.map .pin .dot { fill: var(--accent); }
 
 .map-hint { text-align: center; color: var(--muted); font-size: .92rem; margin: 10px 0 2px; }
 .map-tip {
@@ -316,6 +308,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
 .prose h2 { font-size: 1.55rem; margin: 2em 0 .5em; }
 .prose h3 { font-size: 1.25rem; margin: 1.7em 0 .4em; }
 .prose img { margin: 1.6em auto; border-radius: 12px; box-shadow: var(--shadow-s); }
+.prose video { display: block; max-width: 100%; max-height: 80vh; width: auto; height: auto; margin: 1.6em auto; border-radius: 12px; box-shadow: var(--shadow-s); background: #000; }
 .prose blockquote {
   margin: 1.6em 0; padding: .2em 1.1em; border-inline-start: 3px solid var(--accent); color: var(--muted);
 }
@@ -419,6 +412,29 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
 .like-btn .heart { font-size: 1.15rem; line-height: 1; }
 .like-btn .like-count { color: var(--muted); font-weight: 700; }
 .like-btn.on .like-count { color: var(--accent); }
+
+/* ---------- فرستادن سفرنامه برای دیگران */
+.share { max-width: 720px; margin: 26px auto 0; }
+.share h2 { font-size: 1rem; font-weight: 600; color: var(--muted); margin: 0 0 12px; }
+.share-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
+.share-list a,
+.share-list button {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card); color: inherit; font: inherit; font-weight: 600; font-size: .92rem;
+  text-decoration: none; transition: border-color .15s ease, color .15s ease, background .15s ease;
+}
+.share-list a::before {
+  content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none;
+}
+.share-list a:hover,
+.share-list button:hover { border-color: var(--accent); color: var(--accent); }
+.share-list .sh-copy.done {
+  border-color: var(--accent); color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, var(--card));
+}
+
+.foot-links a { color: inherit; }
 
 .comments { max-width: 720px; margin: 36px auto 0; }
 .comments h2 { font-size: 1.3rem; margin: 0 0 14px; }

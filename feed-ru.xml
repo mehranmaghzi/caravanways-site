@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Caravanways</title>
+    <link>https://caravanways.ir/ru/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-ru.xml"/>
+    <description>Рассказы о путешествиях, страна за страной</description>
+    <language>ru</language>
+    <lastBuildDate>Mon, 02 Nov 2026 09:30:04 GMT</lastBuildDate>
+    <image>
+      <url>https://caravanways.ir/assets/og.png</url>
+      <title>Caravanways</title>
+      <link>https://caravanways.ir/ru/</link>
+    </image>
+    <item>
+      <title>Таджикистан: Навруз в старом доме Ирана</title>
+      <link>https://caravanways.ir/ru/p/tajikistan-dushanbe-panjakent-nowruz/</link>
+      <guid isPermaLink="true">https://caravanways.ir/ru/p/tajikistan-dushanbe-panjakent-nowruz/</guid>
+      <pubDate>Sun, 01 Nov 2026 14:46:38 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Навруз 2024 года в Таджикистане с рюкзаком и на такси: Душанбе, полный персидской поэзии, заснеженное озеро Искандеркуль, сумаляк и праздник Навруза в Пенджикенте по приглашению мэра, и поездка, после которой я впервые стал гордиться тем, что я иранец.</description>
+      <enclosure url="https://caravanways.ir/media/e22720831c2a4523ffd6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Иран, Тегеран: Национальный ботанический сад Ирана</title>
+      <link>https://caravanways.ir/ru/p/iran-tehran-botanical-garden/</link>
+      <guid isPermaLink="true">https://caravanways.ir/ru/p/iran-tehran-botanical-garden/</guid>
+      <pubDate>Sat, 31 Oct 2026 07:55:12 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Осеннее утро в крупнейшем ботаническом саду Ирана у трассы Тегеран–Карадж: медные кипарисы, жёлтые тоннели ясеней, колючие деревья у озера и всё, что нужно знать перед поездкой.</description>
+      <enclosure url="https://caravanways.ir/media/30c852b7ce846ea9a80a-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Незапланированное путешествие: от Бишкека до Иссык-Куля</title>
+      <link>https://caravanways.ir/ru/p/kyrgyzstan-bishkek-issyk-kul/</link>
+      <guid isPermaLink="true">https://caravanways.ir/ru/p/kyrgyzstan-bishkek-issyk-kul/</guid>
+      <pubDate>Fri, 30 Oct 2026 17:05:46 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Бэкпекер, который собирался вернуться домой в Иран через Ливан и Сирию, вместо этого оказался в Кыргызстане: читающие пассажиры в самолёте, гостеприимство Бишкека, кочевые юрты, красные скалы Джети-Огуза и озеро, которое никогда не замерзает.</description>
+      <enclosure url="https://caravanways.ir/media/7d5368a2a470e31a23fa-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Моё путешествие в сердце Узбекистана: Бухара и Самарканд</title>
+      <link>https://caravanways.ir/ru/p/uzbekistan-bukhara-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/ru/p/uzbekistan-bukhara-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
+      <dc:creator>Дильноза</dc:creator>
+      <description>Весеннее путешествие Дилнозы по Бухаре и Самарканду в месяц Рамадан: древние улочки Бухары, 18-метровая гробница пророка Даниила, бирюзовые изразцы Шахи-Зинды и Регистана, простой ифтар в дороге и новая дружба между Узбекистаном и Ираном.</description>
+      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

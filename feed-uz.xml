@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Caravanways</title>
+    <link>https://caravanways.ir/uz/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-uz.xml"/>
+    <description>Sayohat hikoyalari, davlat-badavlat</description>
+    <language>uz</language>
+    <lastBuildDate>Mon, 02 Nov 2026 09:30:04 GMT</lastBuildDate>
+    <image>
+      <url>https://caravanways.ir/assets/og.png</url>
+      <title>Caravanways</title>
+      <link>https://caravanways.ir/uz/</link>
+    </image>
+    <item>
+      <title>Tojikiston: Eronning eski uyida Navro‘z</title>
+      <link>https://caravanways.ir/uz/p/tajikistan-dushanbe-panjakent-nowruz/</link>
+      <guid isPermaLink="true">https://caravanways.ir/uz/p/tajikistan-dushanbe-panjakent-nowruz/</guid>
+      <pubDate>Sun, 01 Nov 2026 14:46:38 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>2024-yil Navro‘zi Tojikistonda, ryukzak va xususiy taksi bilan: fors she’riyatiga to‘la Dushanbe, qorli Iskandarko‘l, Panjakentda shahar hokimining taklifi bilan sumalak va Navro‘z bayrami, hamda ilk bor eronlik ekanimdan faxrlanishimga sabab bo‘lgan safar.</description>
+      <enclosure url="https://caravanways.ir/media/e22720831c2a4523ffd6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Eron, Tehron: Eron Milliy botanika bogʻi</title>
+      <link>https://caravanways.ir/uz/p/iran-tehran-botanical-garden/</link>
+      <guid isPermaLink="true">https://caravanways.ir/uz/p/iran-tehran-botanical-garden/</guid>
+      <pubDate>Sat, 31 Oct 2026 07:55:12 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Tehron–Karaj avtomagistrali yonidagi Eronning eng katta botanika bogʻida bir kuz tongi: mis rangli sarvlar, shumtollarning sariq tunnellari, koʻl boʻyidagi tikanli daraxtlar va borishdan oldin bilishingiz kerak boʻlgan hamma narsa.</description>
+      <enclosure url="https://caravanways.ir/media/30c852b7ce846ea9a80a-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Rejalashtirilmagan sayohat: Bishkekdan Issiqko‘lgacha</title>
+      <link>https://caravanways.ir/uz/p/kyrgyzstan-bishkek-issyk-kul/</link>
+      <guid isPermaLink="true">https://caravanways.ir/uz/p/kyrgyzstan-bishkek-issyk-kul/</guid>
+      <pubDate>Fri, 30 Oct 2026 17:05:46 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Livan va Suriya orqali Eronga qaytmoqchi bo‘lgan bekpeker o‘zini Qirg‘izistonda topdi: samolyotda kitob o‘qiyotgan yo‘lovchilar, Bishkek mehmondo‘stligi, ko‘chmanchilar o‘tovlari, Jeti-O‘g‘izning qizil qoyalari va hech qachon muzlamaydigan ko‘l.</description>
+      <enclosure url="https://caravanways.ir/media/7d5368a2a470e31a23fa-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>O‘zbekistonning qalbiga sayohatim: Buxoro va Samarqand</title>
+      <link>https://caravanways.ir/uz/p/uzbekistan-bukhara-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/uz/p/uzbekistan-bukhara-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
+      <dc:creator>Dilnoza</dc:creator>
+      <description>Dilnozaning Ramazon oyida Buxoro va Samarqandga qilgan bahorgi sayohati: Buxoroning qadimiy ko‘chalari, Doniyor payg‘ambarning 18 metrlik qabri, Shohi Zinda va Registonning feruza koshinlari, yo‘lda oddiy iftor va O‘zbekiston bilan Eron o‘rtasidagi yangi do‘stlik.</description>
+      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

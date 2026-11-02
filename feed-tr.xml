@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Caravanways</title>
+    <link>https://caravanways.ir/tr/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-tr.xml"/>
+    <description>Ülke ülke gezi hikâyeleri</description>
+    <language>tr</language>
+    <lastBuildDate>Mon, 02 Nov 2026 09:30:04 GMT</lastBuildDate>
+    <image>
+      <url>https://caravanways.ir/assets/og.png</url>
+      <title>Caravanways</title>
+      <link>https://caravanways.ir/tr/</link>
+    </image>
+    <item>
+      <title>Tacikistan: İran&apos;ın Eski Evinde Nevruz</title>
+      <link>https://caravanways.ir/tr/p/tajikistan-dushanbe-panjakent-nowruz/</link>
+      <guid isPermaLink="true">https://caravanways.ir/tr/p/tajikistan-dushanbe-panjakent-nowruz/</guid>
+      <pubDate>Sun, 01 Nov 2026 14:46:38 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>2024 Nevruz&apos;u Tacikistan&apos;da, sırt çantası ve özel taksiyle: Fars şiiriyle dolu Duşanbe, karlı İskenderkul Gölü, Panjakent&apos;te belediye başkanının davetiyle sümelek ve Nevruz şenliği, ve ilk kez İranlı olmaktan gurur duymamı sağlayan yolculuk.</description>
+      <enclosure url="https://caravanways.ir/media/e22720831c2a4523ffd6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>İran, Tahran: İran Ulusal Botanik Bahçesi</title>
+      <link>https://caravanways.ir/tr/p/iran-tehran-botanical-garden/</link>
+      <guid isPermaLink="true">https://caravanways.ir/tr/p/iran-tehran-botanical-garden/</guid>
+      <pubDate>Sat, 31 Oct 2026 07:55:12 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Tahran–Kerec otobanının hemen yanındaki İran&apos;ın en büyük botanik bahçesinde bir sonbahar sabahı: bakır renkli selviler, dişbudakların sarı tünelleri, göl kenarındaki dikenli ağaçlar ve gitmeden önce bilmeniz gereken her şey.</description>
+      <enclosure url="https://caravanways.ir/media/30c852b7ce846ea9a80a-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Hiç Planlanmamış Bir Yolculuk: Bişkek&apos;ten Isık Göl&apos;e</title>
+      <link>https://caravanways.ir/tr/p/kyrgyzstan-bishkek-issyk-kul/</link>
+      <guid isPermaLink="true">https://caravanways.ir/tr/p/kyrgyzstan-bishkek-issyk-kul/</guid>
+      <pubDate>Fri, 30 Oct 2026 17:05:46 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Lübnan ve Suriye üzerinden İran&apos;a dönecek olan bir sırt çantalı gezgin, kendini Kırgızistan&apos;da buldu: uçakta kitap okuyan yolcular, Bişkek&apos;in misafirperverliği, göçebe yurtları, Jeti-Oguz&apos;un kızıl kayaları ve hiç donmayan bir göl.</description>
+      <enclosure url="https://caravanways.ir/media/7d5368a2a470e31a23fa-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Özbekistan&apos;ın Kalbine Yolculuğum: Buhara ve Semerkant</title>
+      <link>https://caravanways.ir/tr/p/uzbekistan-bukhara-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/tr/p/uzbekistan-bukhara-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
+      <dc:creator>Dilnoza</dc:creator>
+      <description>Dilnoza&apos;nın Ramazan ayında Buhara ve Semerkant&apos;a yaptığı bahar yolculuğu: Buhara&apos;nın eski sokakları, Hz. Danyal&apos;ın 18 metrelik kabri, Şah-ı Zinde ve Registan&apos;ın turkuaz çinileri, yolda sade bir iftar ve Özbekistan ile İran arasında yeni bir dostluk.</description>
+      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

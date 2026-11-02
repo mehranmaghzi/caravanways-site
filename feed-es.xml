@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Caravanways</title>
+    <link>https://caravanways.ir/es/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-es.xml"/>
+    <description>Relatos de viaje, país por país</description>
+    <language>es</language>
+    <lastBuildDate>Mon, 02 Nov 2026 09:30:04 GMT</lastBuildDate>
+    <image>
+      <url>https://caravanways.ir/assets/og.png</url>
+      <title>Caravanways</title>
+      <link>https://caravanways.ir/es/</link>
+    </image>
+    <item>
+      <title>Tayikistán: Nowruz en la antigua casa de Irán</title>
+      <link>https://caravanways.ir/es/p/tajikistan-dushanbe-panjakent-nowruz/</link>
+      <guid isPermaLink="true">https://caravanways.ir/es/p/tajikistan-dushanbe-panjakent-nowruz/</guid>
+      <pubDate>Sun, 01 Nov 2026 14:46:38 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Nowruz de 2024 en Tayikistán, con mochila y taxi privado: Dusambé llena de poesía persa, el lago nevado de Iskanderkul, samanu y la fiesta de Nowruz en Panjakent invitados por el alcalde, y el viaje que me hizo sentir orgulloso de ser iraní por primera vez.</description>
+      <enclosure url="https://caravanways.ir/media/e22720831c2a4523ffd6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Irán, Teherán: el Jardín Botánico Nacional de Irán</title>
+      <link>https://caravanways.ir/es/p/iran-tehran-botanical-garden/</link>
+      <guid isPermaLink="true">https://caravanways.ir/es/p/iran-tehran-botanical-garden/</guid>
+      <pubDate>Sat, 31 Oct 2026 07:55:12 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Una mañana de otoño en el jardín botánico más grande de Irán, junto a la autopista Teherán–Karaj: cipreses de color cobre, túneles amarillos de fresnos, árboles espinosos junto al lago y todo lo que necesitas saber antes de ir.</description>
+      <enclosure url="https://caravanways.ir/media/30c852b7ce846ea9a80a-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>El viaje que nunca planeé: de Biskek al Issyk-Kul</title>
+      <link>https://caravanways.ir/es/p/kyrgyzstan-bishkek-issyk-kul/</link>
+      <guid isPermaLink="true">https://caravanways.ir/es/p/kyrgyzstan-bishkek-issyk-kul/</guid>
+      <pubDate>Fri, 30 Oct 2026 17:05:46 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Un mochilero que iba a volver a Irán por Líbano y Siria acabó en Kirguistán: pasajeros que leían libros, la hospitalidad de Biskek, yurtas nómadas, las rocas rojas de Jeti-Oguz y un lago que nunca se congela.</description>
+      <enclosure url="https://caravanways.ir/media/7d5368a2a470e31a23fa-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>Mi viaje al corazón de Uzbekistán: Bujará y Samarcanda</title>
+      <link>https://caravanways.ir/es/p/uzbekistan-bukhara-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/es/p/uzbekistan-bukhara-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
+      <dc:creator>Dilnoza</dc:creator>
+      <description>El viaje de primavera de Dilnoza por Bujará y Samarcanda durante el Ramadán: las antiguas calles de Bujará, la tumba de 18 metros del profeta Daniel, los azulejos turquesa de Shah-i-Zinda y el Registán, un iftar sencillo en el camino y una nueva amistad entre Uzbekistán e Irán.</description>
+      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>

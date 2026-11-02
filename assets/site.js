@@ -183,3 +183,43 @@
     });
   });
 })();
+
+// ---------- فرستادن سفرنامه برای دیگران
+(function () {
+  var btn = document.querySelector('.share .sh-copy');
+  if (!btn) return;
+  var canShare = typeof navigator.share === 'function';
+  if (canShare) btn.textContent = btn.dataset.share;
+
+  btn.addEventListener('click', function () {
+    if (canShare) {
+      navigator.share({ title: btn.dataset.title, url: btn.dataset.url }).catch(function () {});
+      return;
+    }
+    copy(btn.dataset.url).then(function () {
+      btn.textContent = btn.dataset.copied;
+      btn.classList.add('done');
+      setTimeout(function () {
+        btn.textContent = btn.dataset.copy;
+        btn.classList.remove('done');
+      }, 2000);
+    });
+  });
+
+  // روی http (بدون گواهی) کلیپ‌بورد مرورگر کار نمی‌کند؛ راه قدیمی جایگزینش است
+  function copy(text) {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text);
+    return new Promise(function (resolve) {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) { /* بی‌خیال */ }
+      document.body.removeChild(ta);
+      resolve();
+    });
+  }
+})();

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>راه‌های کاروان</title>
+    <link>https://caravanways.ir/fa/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-fa.xml"/>
+    <description>سفرنامه‌ها، کشور به کشور</description>
+    <language>fa</language>
+    <lastBuildDate>Mon, 02 Nov 2026 09:30:03 GMT</lastBuildDate>
+    <image>
+      <url>https://caravanways.ir/assets/og.png</url>
+      <title>راه‌های کاروان</title>
+      <link>https://caravanways.ir/fa/</link>
+    </image>
+    <item>
+      <title>تاجیکستان؛ نوروز در خانه‌ی قدیمی ایران</title>
+      <link>https://caravanways.ir/fa/p/tajikistan-dushanbe-panjakent-nowruz/</link>
+      <guid isPermaLink="true">https://caravanways.ir/fa/p/tajikistan-dushanbe-panjakent-nowruz/</guid>
+      <pubDate>Sun, 01 Nov 2026 14:46:38 GMT</pubDate>
+      <dc:creator>مهران</dc:creator>
+      <description>نوروز ۱۴۰۳ در تاجیکستان، با کوله‌پشتی و تاکسی دربست: دوشنبه‌ی پر از شعر فارسی، دریاچه‌ی برفی اسکندرکول، سمنو و جشن نوروز پنجکنت به دعوت شهردار، و سفری که باعث شد برای اولین بار به ایرانی بودنم افتخار کنم.</description>
+      <enclosure url="https://caravanways.ir/media/e22720831c2a4523ffd6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>ایران، تهران؛ باغ گیاه‌شناسی ملی ایران</title>
+      <link>https://caravanways.ir/fa/p/iran-tehran-botanical-garden/</link>
+      <guid isPermaLink="true">https://caravanways.ir/fa/p/iran-tehran-botanical-garden/</guid>
+      <pubDate>Sat, 31 Oct 2026 07:55:12 GMT</pubDate>
+      <dc:creator>مهران</dc:creator>
+      <description>صبحی پاییزی در بزرگ‌ترین باغ گیاه‌شناسی ایران، کنار اتوبان تهران–کرج: سروهای مسی، تونل‌های زرد زبان‌گنجشک، درخت‌های خاردار کنار دریاچه، و همه‌ی چیزهایی که برای بازدید باید بدانید.</description>
+      <enclosure url="https://caravanways.ir/media/30c852b7ce846ea9a80a-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>سفری که قرار نبود؛ از بیشکک تا ایسیک‌کول</title>
+      <link>https://caravanways.ir/fa/p/kyrgyzstan-bishkek-issyk-kul/</link>
+      <guid isPermaLink="true">https://caravanways.ir/fa/p/kyrgyzstan-bishkek-issyk-kul/</guid>
+      <pubDate>Fri, 30 Oct 2026 17:05:46 GMT</pubDate>
+      <dc:creator>مهران</dc:creator>
+      <description>بک‌پکری که قرار بود از لبنان و سوریه به ایران برگردد، سر از قرقیزستان درآورد: کتاب‌خوان‌های هواپیما، مهمان‌نوازی مردم بیشکک، یورت‌های عشایری، صخره‌های سرخ جتی‌اوغوز و دریاچه‌ای که یخ نمی‌زند.</description>
+      <enclosure url="https://caravanways.ir/media/7d5368a2a470e31a23fa-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title>سفر من به قلب ازبکستان: بخارا و سمرقند</title>
+      <link>https://caravanways.ir/fa/p/uzbekistan-bukhara-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/fa/p/uzbekistan-bukhara-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
+      <dc:creator>دلنوزا</dc:creator>
+      <description>سفر بهاری دیلنوزا در ماه رمضان به بخارا و سمرقند: کوچه‌های کهن بخارا، آرامگاه ۱۸ متری حضرت دانیال، کاشی‌های فیروزه‌ای شاه زنده و ریگستان، افطاری ساده سر راه، و دوستی تازه‌ای میان ازبکستان و ایران.</description>
+      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>
