@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-tr.xml"/>
     <description>Ülke ülke gezi hikâyeleri</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 02 Nov 2026 10:10:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 11:50:04 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/tr/</link>
     </image>
+    <item>
+      <title>Pencikent&apos;ten Buhara&apos;ya: Özbekistan Gezi Yazısı (Birinci Bölüm)</title>
+      <link>https://caravanways.ir/tr/p/uzbekistan-panjakent-bukhara/</link>
+      <guid isPermaLink="true">https://caravanways.ir/tr/p/uzbekistan-panjakent-bukhara/</guid>
+      <pubDate>Mon, 02 Nov 2026 11:20:23 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Tek sırt çantalı bir gezgin, Tacikistan&apos;ın Pencikent kentinden karayoluyla Özbekistan&apos;a geçiyor: Semerkant&apos;ta kısa bir gece, Samaniler Türbesi, Po-i Kalan meydanı, Buhara&apos;nın çinili medreseleri ve Rudeki ile bu toprakların Farsça yazan şairlerinin izleri.</description>
+      <enclosure url="https://caravanways.ir/media/c25420db056b024f72c6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>Tacikistan: İran&apos;ın Eski Evinde Nevruz</title>
       <link>https://caravanways.ir/tr/p/tajikistan-dushanbe-panjakent-nowruz/</link>
@@ -46,7 +55,7 @@
       <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
       <dc:creator>Dilnoza</dc:creator>
       <description>Dilnoza&apos;nın Ramazan ayında Buhara ve Semerkant&apos;a yaptığı bahar yolculuğu: Buhara&apos;nın eski sokakları, Hz. Danyal&apos;ın 18 metrelik kabri, Şah-ı Zinde ve Registan&apos;ın turkuaz çinileri, yolda sade bir iftar ve Özbekistan ile İran arasında yeni bir dostluk.</description>
-      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://caravanways.ir/media/e89f15d1a51ae892bee0-og.jpg" type="image/jpeg" length="0"/>
     </item>
   </channel>
 </rss>

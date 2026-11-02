@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-ru.xml"/>
     <description>Рассказы о путешествиях, страна за страной</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 02 Nov 2026 10:10:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 11:50:03 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/ru/</link>
     </image>
+    <item>
+      <title>От Пенджикента до Бухары: путевые заметки по Узбекистану (часть первая)</title>
+      <link>https://caravanways.ir/ru/p/uzbekistan-panjakent-bukhara/</link>
+      <guid isPermaLink="true">https://caravanways.ir/ru/p/uzbekistan-panjakent-bukhara/</guid>
+      <pubDate>Mon, 02 Nov 2026 11:20:23 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Бэкпекер с одним рюкзаком переходит по суше из таджикского Пенджикента в Узбекистан: короткая ночь в Самарканде, мавзолей Саманидов, площадь Пои-Калян, изразцовые медресе Бухары и следы Рудаки и персоязычных поэтов этой земли.</description>
+      <enclosure url="https://caravanways.ir/media/c25420db056b024f72c6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>Таджикистан: Навруз в старом доме Ирана</title>
       <link>https://caravanways.ir/ru/p/tajikistan-dushanbe-panjakent-nowruz/</link>
@@ -46,7 +55,7 @@
       <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
       <dc:creator>Дильноза</dc:creator>
       <description>Весеннее путешествие Дилнозы по Бухаре и Самарканду в месяц Рамадан: древние улочки Бухары, 18-метровая гробница пророка Даниила, бирюзовые изразцы Шахи-Зинды и Регистана, простой ифтар в дороге и новая дружба между Узбекистаном и Ираном.</description>
-      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://caravanways.ir/media/e89f15d1a51ae892bee0-og.jpg" type="image/jpeg" length="0"/>
     </item>
   </channel>
 </rss>

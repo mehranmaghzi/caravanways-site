@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-uz.xml"/>
     <description>Sayohat hikoyalari, davlat-badavlat</description>
     <language>uz</language>
-    <lastBuildDate>Mon, 02 Nov 2026 10:10:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 11:50:04 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/uz/</link>
     </image>
+    <item>
+      <title>Panjakentdan Buxorogacha: O‘zbekiston sayohatnomasi (birinchi qism)</title>
+      <link>https://caravanways.ir/uz/p/uzbekistan-panjakent-bukhara/</link>
+      <guid isPermaLink="true">https://caravanways.ir/uz/p/uzbekistan-panjakent-bukhara/</guid>
+      <pubDate>Mon, 02 Nov 2026 11:20:23 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Bitta ryukzakli sayyoh Tojikistonning Panjakent shahridan quruqlik orqali O‘zbekistonga o‘tadi: Samarqandda qisqa bir tun, Somoniylar maqbarasi, Poi Kalon maydoni, Buxoroning koshinli madrasalari hamda Rudakiy va bu yurtning forsiyzabon shoirlari izlari.</description>
+      <enclosure url="https://caravanways.ir/media/c25420db056b024f72c6-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>Tojikiston: Eronning eski uyida Navro‘z</title>
       <link>https://caravanways.ir/uz/p/tajikistan-dushanbe-panjakent-nowruz/</link>
@@ -46,7 +55,7 @@
       <pubDate>Mon, 02 Nov 2026 08:41:10 GMT</pubDate>
       <dc:creator>Dilnoza</dc:creator>
       <description>Dilnozaning Ramazon oyida Buxoro va Samarqandga qilgan bahorgi sayohati: Buxoroning qadimiy ko‘chalari, Doniyor payg‘ambarning 18 metrlik qabri, Shohi Zinda va Registonning feruza koshinlari, yo‘lda oddiy iftor va O‘zbekiston bilan Eron o‘rtasidagi yangi do‘stlik.</description>
-      <enclosure url="https://caravanways.ir/media/a66dea147ddc008ad7b1-og.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://caravanways.ir/media/e89f15d1a51ae892bee0-og.jpg" type="image/jpeg" length="0"/>
     </item>
   </channel>
 </rss>
