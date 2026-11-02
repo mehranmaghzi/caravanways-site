@@ -385,6 +385,8 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
 
 /* فرم خبرنامه */
 .subscribe-form { max-width: 440px; display: flex; flex-direction: column; gap: 14px; margin-top: 22px; }
+/* display روی کلاس، [hidden] مرورگر را بی‌اثر می‌کند */
+.subscribe-form[hidden], .apply-form[hidden] { display: none; }
 .subscribe-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: .95rem; }
 .subscribe-form input {
   padding: 11px 16px; border-radius: 12px; border: 1px solid var(--line);
@@ -394,9 +396,34 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 20px 64px; }
   align-self: flex-start; padding: 11px 24px; border: 0; border-radius: 999px; cursor: pointer;
   background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700;
 }
-.form-note { max-width: 440px; color: var(--muted); }
+.form-note { max-width: 560px; color: var(--muted); }
 .form-note.ok { color: var(--deep); font-weight: 600; }
 .form-note.bad { color: var(--accent); font-weight: 600; }
+
+/* دعوت به نویسندگی، ته صفحهٔ مسافرها */
+.join {
+  margin: 46px auto 10px; max-width: 620px; text-align: center;
+  padding: 26px 22px; border: 1px solid var(--line); border-radius: 18px; background: var(--card);
+}
+.join h2 { margin: 0 0 8px; font-size: 1.35rem; }
+.join .lead { margin: 0 auto 18px; max-width: 46ch; }
+
+/* فرم درخواست نویسندگی */
+.apply-form { max-width: 560px; display: flex; flex-direction: column; gap: 18px; margin-top: 22px; }
+.apply-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: .95rem; }
+.apply-form .lbl { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.apply-form input, .apply-form select, .apply-form textarea {
+  padding: 11px 16px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--card); color: inherit; font: inherit; font-weight: 400;
+}
+.apply-form textarea { resize: vertical; line-height: 1.9; }
+.apply-form input[type=file] { padding: 10px 12px; }
+.apply-form .hint { font-weight: 400; font-size: .86rem; color: var(--muted); line-height: 1.7; }
+.apply-form .opt { font-weight: 400; font-size: .84rem; color: var(--muted); }
+.apply-form button {
+  align-self: flex-start; padding: 11px 24px; border: 0; border-radius: 999px; cursor: pointer;
+  background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700;
+}
 
 /* ---------- لایک و نظر */
 .reactions { display: flex; gap: 12px; margin: 32px 0 8px; }

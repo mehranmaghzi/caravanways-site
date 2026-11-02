@@ -223,3 +223,80 @@
     });
   }
 })();
+
+// ---------- درخواست نویسندگی
+// فرم با multipart می‌رود، چون ممکن است عکس هم داشته باشد. اول یک کد به ایمیل
+// می‌رود تا مطمئن شویم نشانی مال خودش است؛ بعد مدیر درخواست را می‌بیند.
+(function () {
+  var cfg = window.APPLY_I18N;
+  var form = document.getElementById('apply-form');
+  var confirmForm = document.getElementById('apply-confirm');
+  var note = document.getElementById('apply-note');
+  if (!cfg || !form) return;
+  var email = '';
+  var MAX_PHOTO = 10 * 1024 * 1024;
+
+  function say(text, kind) {
+    note.textContent = text;
+    note.className = 'form-note ' + (kind || '');
+  }
+
+  /** وقتی روی نسخهٔ ایستا باز شده، فرستادن ممکن نیست؛ راه سایت اصلی را نشان بده */
+  function offsite() {
+    note.textContent = cfg.offsite + ' ';
+    note.className = 'form-note bad';
+    var a = document.createElement('a');
+    a.href = cfg.offsiteUrl;
+    a.textContent = cfg.offsiteUrl;
+    note.appendChild(a);
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var photo = form.photo.files[0];
+    if (photo && photo.size > MAX_PHOTO) return say(cfg.tooBig, 'bad');
+
+    var data = new FormData();
+    data.append('name', form.name.value.trim());
+    data.append('email', form.email.value.trim());
+    data.append('lang_native', form.lang_native.value);
+    data.append('lang_form', cfg.lang);
+    data.append('country', form.country.value);
+    data.append('about', form.about.value.trim());
+    data.append('links', form.links.value.trim());
+    if (photo) data.append('photo', photo);
+    if (!data.get('name') || !data.get('email') || !data.get('lang_native') || !data.get('about')) return;
+
+    say('…');
+    fetch('/api/apply', { method: 'POST', body: data })
+      .then(function (r) {
+        if (r.status === 404) return { offsite: true };
+        return r.json().then(function (b) { return { ok: r.ok, b: b }; });
+      })
+      .then(function (res) {
+        if (res.offsite) return offsite();
+        if (!res.ok) return say(res.b && res.b.error === 'photo' ? cfg.tooBig : cfg.failed, 'bad');
+        if (res.b.already) return say(cfg.already, 'ok');
+        email = form.email.value.trim();
+        form.hidden = true;
+        confirmForm.hidden = false;
+        say(cfg.sent);
+        confirmForm.code.focus();
+      })
+      .catch(function () { say(cfg.failed, 'bad'); });
+  });
+
+  confirmForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    say('…');
+    fetch('/api/apply/confirm', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ email: email, code: confirmForm.code.value.trim() }),
+    }).then(function (r) { return r.json().then(function (b) { return { ok: r.ok, b: b }; }); })
+      .then(function (res) {
+        if (!res.ok) return say(cfg.wrong, 'bad');
+        confirmForm.hidden = true;
+        say(cfg.done, 'ok');
+      }).catch(function () { say(cfg.failed, 'bad'); });
+  });
+})();
