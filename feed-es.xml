@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-es.xml"/>
     <description>Relatos de viaje, país por país</description>
     <language>es</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:50:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:50:05 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/es/</link>
     </image>
+    <item>
+      <title>Samarcanda, la ciudad que cambió mi ruta (relato de viaje por Uzbekistán, segunda parte)</title>
+      <link>https://caravanways.ir/es/p/uzbekistan-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/es/p/uzbekistan-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 15:16:37 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>El Registán, Shah-i-Zinda, Bibi-Khanym y el observatorio de Ulugh Beg, y el encuentro con dos profesoras de la Universidad de Fergana que me hizo cancelar mi vuelo y quedarme en Uzbekistán.</description>
+      <enclosure url="https://caravanways.ir/media/4558db167447103ab699-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>De Panjakent a Bujará: relato de viaje por Uzbekistán (primera parte)</title>
       <link>https://caravanways.ir/es/p/uzbekistan-panjakent-bukhara/</link>

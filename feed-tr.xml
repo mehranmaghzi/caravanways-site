@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-tr.xml"/>
     <description>Ülke ülke gezi hikâyeleri</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:50:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:50:06 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/tr/</link>
     </image>
+    <item>
+      <title>Rotamı Değiştiren Şehir Semerkant (Özbekistan Gezi Yazısı, İkinci Bölüm)</title>
+      <link>https://caravanways.ir/tr/p/uzbekistan-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/tr/p/uzbekistan-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 15:16:37 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Registan, Şah-ı Zinde, Bibi Hanım ve Uluğ Bey Rasathanesi; bir de uçuşumu iptal edip Özbekistan&apos;da kalmama yol açan, Fergana Üniversitesi&apos;nden iki öğretim üyesiyle tanışma.</description>
+      <enclosure url="https://caravanways.ir/media/4558db167447103ab699-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>Pencikent&apos;ten Buhara&apos;ya: Özbekistan Gezi Yazısı (Birinci Bölüm)</title>
       <link>https://caravanways.ir/tr/p/uzbekistan-panjakent-bukhara/</link>

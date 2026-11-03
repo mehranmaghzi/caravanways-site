@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-fa.xml"/>
     <description>سفرنامه‌ها، کشور به کشور</description>
     <language>fa</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:50:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:50:05 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>راه‌های کاروان</title>
       <link>https://caravanways.ir/fa/</link>
     </image>
+    <item>
+      <title>سمرقند؛ شهری که مسیر سفرم را عوض کرد (سفرنامهٔ ازبکستان، بخش دوم)</title>
+      <link>https://caravanways.ir/fa/p/uzbekistan-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/fa/p/uzbekistan-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 15:16:37 GMT</pubDate>
+      <dc:creator>مهران</dc:creator>
+      <description>ریگستان، شاه زنده، بی‌بی‌خانم و رصدخانهٔ الغ‌بیگ؛ و آشنایی با دو استاد دانشگاه فرغانه که باعث شد پروازم را کنسل کنم و در ازبکستان بمانم.</description>
+      <enclosure url="https://caravanways.ir/media/4558db167447103ab699-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>از پنجکت تا بخارا؛ سفرنامهٔ ازبکستان (بخش اول)</title>
       <link>https://caravanways.ir/fa/p/uzbekistan-panjakent-bukhara/</link>

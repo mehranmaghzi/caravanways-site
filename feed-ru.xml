@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-ru.xml"/>
     <description>Рассказы о путешествиях, страна за страной</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:50:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:50:05 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/ru/</link>
     </image>
+    <item>
+      <title>Самарканд — город, который изменил мой маршрут (путевые заметки по Узбекистану, часть вторая)</title>
+      <link>https://caravanways.ir/ru/p/uzbekistan-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/ru/p/uzbekistan-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 15:16:37 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Регистан, Шахи-Зинда, Биби-Ханым и обсерватория Улугбека, а ещё знакомство с двумя преподавательницами Ферганского университета, из-за которого я отменил свой рейс и остался в Узбекистане.</description>
+      <enclosure url="https://caravanways.ir/media/4558db167447103ab699-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>От Пенджикента до Бухары: путевые заметки по Узбекистану (часть первая)</title>
       <link>https://caravanways.ir/ru/p/uzbekistan-panjakent-bukhara/</link>

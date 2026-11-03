@@ -6,12 +6,21 @@
     <atom:link rel="self" type="application/rss+xml" href="https://caravanways.ir/feed-en.xml"/>
     <description>Travel stories, country by country</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:50:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:50:05 GMT</lastBuildDate>
     <image>
       <url>https://caravanways.ir/assets/og.png</url>
       <title>Caravanways</title>
       <link>https://caravanways.ir/en/</link>
     </image>
+    <item>
+      <title>Samarkand, the City That Changed My Route (Uzbekistan Travelogue, Part Two)</title>
+      <link>https://caravanways.ir/en/p/uzbekistan-samarkand/</link>
+      <guid isPermaLink="true">https://caravanways.ir/en/p/uzbekistan-samarkand/</guid>
+      <pubDate>Mon, 02 Nov 2026 15:16:37 GMT</pubDate>
+      <dc:creator>Mehran</dc:creator>
+      <description>Registan, Shah-i-Zinda, Bibi-Khanym and Ulugh Beg&apos;s observatory, and meeting two teachers from Fergana University who made me cancel my flight and stay in Uzbekistan.</description>
+      <enclosure url="https://caravanways.ir/media/4558db167447103ab699-og.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
       <title>From Panjakent to Bukhara: An Uzbekistan Travelogue (Part One)</title>
       <link>https://caravanways.ir/en/p/uzbekistan-panjakent-bukhara/</link>
